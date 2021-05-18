@@ -434,14 +434,14 @@ div.gsc-results-wrapper-overlay {height: auto; width: auto; position: fixed; top
 /*==================================================================*/
 /*   Page Footer                                                    */
 /*==================================================================*/
-footer {width: 100%; margin: 0px; padding: 20px 0px 20px 0px; color: #ffffff; text-align: left; background-color: #001536;}
+footer {width: 100%; margin: 0px; padding: 20px 0px 20px 0px; color: #1d1d1b; text-align: left; background-color: #f7f7f7;}
 
-footer .foot-list h3 {text-transform: uppercase; text-align: left; /*color: #988962;*/ color: #ffffff; font-size: 1.6rem; border-bottom: solid 1px #988962; padding-bottom: 10px;}
-footer .foot-list h4 {text-transform: uppercase; text-align: left; color: #ffffff; margin-bottom: 5px; font-size: 1.4rem;}
+footer .foot-list h3 {text-transform: uppercase; text-align: left; /*color: #988962;*/ color: #1d1d1b; font-size: 1.6rem; border-bottom: solid 1px #1d1d1b; padding-bottom: 10px;}
+footer .foot-list h4 {text-transform: uppercase; text-align: left; color: #1d1d1b; margin-bottom: 5px; font-size: 1.4rem;}
 
 footer .foot-list a {color: #ffffff; text-decoration: none; border-bottom: dotted 1px #292929; transition: all .3s ease;}
 footer .foot-list a:link, footer .foot-list a:visited {}
-footer .foot-list a:hover, footer .foot-list a:active {color: #ffffff; border-bottom: dotted 1px #ffffff;}
+footer .foot-list a:hover, footer .foot-list a:active {color: #1d1d1b; border-bottom: dotted 1px #953def;}
 
 footer .foot-list ul {list-style: none; margin: 0px; padding: 0px;}
 footer .foot-list ul li {display: block; padding: 0px 5px 5px 5px; margin: 0px; font-size: 1.4rem;}
@@ -454,7 +454,7 @@ footer .copyright a:hover, footer p.copyright a:active {border-bottom: dotted 1p
 
 /*--- Associations -------------------------------------------------*/
 footer .associations {padding: 0px 5px 0px 5px;}
-footer .associations img {display: inline-block; margin: 0px 10px 0px 10px;}
+footer .associations img {filter: brightness(0.4); display: inline-block; margin: 0px 10px 0px 10px;}
 footer .associations img:first-child {margin: 0px 10px 0px 0px;}
 footer .associations img:last-child {margin: 0px 0px 0px 10px;}
 
@@ -769,7 +769,7 @@ footer .social svg {width: 40px; height: 40px;}
 .offer-list-wave2 {width: 100%; height: 31.64px; position: absolute; bottom: -1px; left: 0px; background:url('/images/svg/deal-wave-logo.svg') center center no-repeat transparent; background-size: cover;}
 
 .offer-list-info {flex: 1 0 auto; display: flex; flex-direction: column; box-sizing: border-box; padding: 15px 20px; position: relative;}
-.offer-list-info h2 {font-size: 2.6rem; font-weight: 600; margin: 15px 0px 10px 0px; color: #002050;}
+.offer-list-info h2 {font-size: 2.6rem; font-weight: 600; margin: 15px 0px 10px 0px; color: #1d1d1b;}
 
 .offer-list-info .supplier-logo {width: auto; padding: 20px 20px 0px 20px; position: absolute; top: -30px; left: 0px; z-index: 1000;}
 .offer-list-info .supplier-logo img {max-width: 100px; max-height: 30px; width: auto; height: auto;}
@@ -1470,7 +1470,7 @@ display: block;
 .dest-tile img {position: absolute; top: 50%; left: 50%; width: auto; height: 100%; transform: translateX(-50%) translateY(-50%) scale(1); transition: 2.0s ease-in-out;}
 
 .dest-tile a:hover img {transform: translateX(-50%) translateY(-50%) scale(1.1);}
-.dest-tile-overlay {width: inherit; height: 60%; position: absolute; top: 40%; right: 0; bottom: 0; left: 0; z-index: 100; background: linear-gradient(to top, rgba(0,32,80,1.0), rgba(0,32,80,0.0));}
+.dest-tile-overlay {width: inherit; height: 60%; position: absolute; top: 40%; right: 0; bottom: 0; left: 0; z-index: 100; background: linear-gradient(to top, rgba(29,29,27,1.0), rgba(0,32,80,0.0));}
 
 .dest-tile .dest-tile-title {z-index: 2000; box-sizing: border-box; width: 100%; position: absolute; bottom: 0px; left: 0px; padding: 15px 20px 40px 20px; text-align: center; transition: bottom .5s ease;}
 .dest-tile .dest-tile-title h2 {color: #ffffff; margin: 0px; text-shadow: 0px 1px 2px #000000; font-size: 3.0rem; font-weight: 600;}
@@ -1527,7 +1527,7 @@ display: block;
 /*==================================================================*/
 .tiles {width: 100%; padding: 20px 0px 20px 0px; text-align: left; border-bottom: solid 1px rgba(132,147,158,0.3); background-color: #ffffff;}
 
-.tiles div.grid-12:not(.section-title-center-lrg) h2 {font-size: 4.0rem; font-weight: 300; margin-bottom: 0px; color: #0062c4; text-align: center;}
+.tiles div.grid-12:not(.section-title-center-lrg) h2 {font-size: 4.0rem; font-weight: 300; margin-bottom: 0px; color: #953def; text-align: center;}
 
 .tiles .tilex0-5 {height: 191px; background-size: cover; position: relative;}
 .tiles .tilex1 {height: 274px; background-size: cover; position: relative;}
