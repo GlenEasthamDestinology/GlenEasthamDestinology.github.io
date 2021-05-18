@@ -141,7 +141,7 @@ input[type="reset"]:focus {}
 .bg-green {background-color: #29b360; color: #ffffff; border-bottom: none;}
 .bg-dblue {background-color: #1d1d1b; color: #ffffff; border-bottom: none;}
 .bg-lblue {background-color: #953def; color: #ffffff; border-bottom: none;}
-.bg-dgrey {background-color: #240940; /*background-color: #292929;*/ color: #ffffff; border-bottom: none;}
+.bg-dgrey {background-color: #953def; /*background-color: #292929;*/ color: #ffffff; border-bottom: none;}
 .bg-lgrey {background-color: #f0f3f5; border-bottom: none;}
 .bg-orange {background-color: #e87e28; color: #ffffff; border-bottom: none;}
 
@@ -879,7 +879,7 @@ footer .social svg {width: 40px; height: 40px;}
 .search-results-summary > div a span {font-size: 2.0rem; position: absolute; bottom: -2px; left: 10px;}
 .search-results-summary > div a:hover {color: #292929; background-color: #ffffff;}
 .search-results-summary > div a:first-of-type {margin-right: 10px;}
-.search-results-summary h2 {font-size: 1.4rem; font-weight: 700; margin: 5px 0px 0px 0px; color: #988962;}
+.search-results-summary h2 {font-size: 1.4rem; font-weight: 700; margin: 5px 0px 0px 0px; color: #1b1b1d;}
 .search-results-summary p {font-weight: 400;}
 .search-results-summary p.more-button {margin: 0px 0px 0px auto;}
 .search-results-summary p.more-button a {display: flex; box-sizing: border-box; color: #ffffff; background-color: #29b360; white-space: nowrap; text-decoration: none; text-transform: uppercase; font-size: 1.4rem; transition: all .3s ease;}
