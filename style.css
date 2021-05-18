@@ -279,11 +279,11 @@ header, .popup-header {width: 100%; height: auto; margin: 0px; padding: 0px; bac
 /*--- Phone Number -------------------------------------------------*/
 .phone {background-color: #ffffff; margin: 0px; padding: 0px; color: #ffffff;}
 .phone .grid-12 {display: inline-block; position: relative;}
-.phone p {position: absolute; top: 10px; right: 0px; margin: 0px; padding: 0px; text-align: right; font-size: 1.8rem; color: #002050; font-weight: 400;}
+.phone p {position: absolute; top: 10px; right: 0px; margin: 0px; padding: 0px; text-align: right; font-size: 1.8rem; color: #1d1d1b; font-weight: 400;}
 .phone p strong {display: inline-block; font-size: 3.0rem; font-weight: 700; font-family: 'Nunito', sans-serif;}
-.phone p span {display: block; margin: 0px 0px 0px 5px; font-size: 1.4rem; line-height: 14px; font-weight: 400; color: #002050;}
+.phone p span {display: block; margin: 0px 0px 0px 5px; font-size: 1.4rem; line-height: 14px; font-weight: 400; color: #1d1d1b;}
 .phone svg {width: 15px; height: 15px; position: relative; top: 0px; left: 0px;}
-.phone svg path {fill: #002050;}
+.phone svg path {fill: #1d1d1b;}
 
 header .header {position: relative;}
 
@@ -344,8 +344,8 @@ header nav {width: 100%;}
 header nav ul, header nav ul li {list-style: none; margin: 0px; padding: 0px;}
 header nav ul {float: right;}
 header nav ul > li {display: inline;}
-header nav ul > li > a {display: block; float: left; margin: 0px; padding: 20px 15px 20px 15px; font-size: 1.6rem; color: #002050; font-weight: 400; text-transform: uppercase; text-decoration: none; transition: all .3s ease;}
-header nav ul > li:hover > a {color: #002050; text-decoration: none; margin-bottom: 0px; /*background-color: rgba(0,32,80,0.5);*/ /*background-color: rgba(0,98,196,1.0);*/ background-color: #f0f3f5;}
+header nav ul > li > a {display: block; float: left; margin: 0px; padding: 20px 15px 20px 15px; font-size: 1.6rem; color: #1d1d1b; font-weight: 400; text-transform: uppercase; text-decoration: none; transition: all .3s ease;}
+header nav ul > li:hover > a {color: #1d1d1b; text-decoration: none; margin-bottom: 0px; background-color: #f7f7f7;}
 header nav ul > li.menu-item-hide {display: none;}
 
 /*--- DropDowns ----------------------------------------------------*/
@@ -356,7 +356,7 @@ header nav ul > li:hover.dropdown-smallwidth .dropdown ul {display: block; float
 header nav ul > li:hover.dropdown-smallwidth .dropdown ul li {display: block; float: none; list-style: none; margin: 0px; padding: 10px 0px 0px 0px;}
 header nav ul > li:hover.dropdown-smallwidth .dropdown ul li:first-child {padding-top: 0px;}
 header nav ul > li:hover.dropdown-smallwidth .dropdown a {display: inline-block; float: none; margin: 0px; padding: 0px; text-transform: uppercase; font-size: 1.4rem; color: #343f48; border-bottom: solid 2px #ffffff; background-color: transparent;}
-header nav ul > li:hover.dropdown-smallwidth .dropdown a:hover {color: #343f48; border-bottom: solid 2px #0062c4; background-color: transparent;}
+header nav ul > li:hover.dropdown-smallwidth .dropdown a:hover {color: #1d1d1b; border-bottom: solid 2px #0062c4; background-color: transparent;}
 
 header nav ul > li.dropdown-fullwidth {float: left;}
 header nav ul > li.dropdown-fullwidth .dropdown {display: none; position: absolute; top: 62px; right: 0px; z-index: 20000; max-width: 1160px; width: 1160px; box-sizing: border-box; padding: 20px; background-color: #ffffff; border: solid 1px rgba(132,147,158,0.3); border-top: 0px;}
@@ -372,7 +372,7 @@ header nav ul > li:hover.dropdown-fullwidth .dropdown ul {display: block; float:
 header nav ul > li:hover.dropdown-fullwidth .dropdown ul li {display: block; float: none; list-style: none; margin: 0px; padding: 10px 0px 0px 0px;}
 header nav ul > li:hover.dropdown-fullwidth .dropdown ul li:first-child {padding-top: 0px;}
 header nav ul > li:hover.dropdown-fullwidth .dropdown a {display: inline-block; float: none; box-sizing: border-box; margin: 0px; padding: 0px 0px 0px 0px; position: relative; text-transform: uppercase; font-size: 1.4rem; color: #343f48; border-bottom: solid 2px #ffffff; background-color: transparent;}
-header nav ul > li:hover.dropdown-fullwidth .dropdown a:hover {color: #343f48; border-bottom: solid 2px #0062c4; background-color: transparent;}
+header nav ul > li:hover.dropdown-fullwidth .dropdown a:hover {color: #1d1d1b; border-bottom: solid 2px #953def; background-color: transparent;}
 
 header nav ul > li:hover.dropdown-fullwidth .dropdown li.nav-main-dest {}
 header nav ul > li:hover.dropdown-fullwidth .dropdown li.nav-sub-dest {padding-left: 20px;}
@@ -574,7 +574,7 @@ footer .social svg {width: 40px; height: 40px;}
 .section-title-center-lrg h2 {display: inline-block; font-size: 4.0rem; font-weight: 300; margin: 0px; color: #002050; padding: 0px 20px; background-color: #ffffff; position: relative; z-index: 20;}*/
 
 .section-title-center-lrg {margin-top: 40px;}
-.section-title-center-lrg h2 {display: flex; justify-content: center; align-items: center; margin: 0px; font-size: 4.0rem; font-weight: 300; color: #002050; text-align: center; position: relative;}
+.section-title-center-lrg h2 {display: flex; justify-content: center; align-items: center; margin: 0px; font-size: 4.0rem; font-weight: 300; color: #1d1d1b; text-align: center; position: relative;}
 .section-title-center-lrg h2:before {content: ''; display: block; border-top: solid 1px #988962; margin-top: 4px; position: absolute; top: 50%; right: 0px; bottom: 50%; left: 0px; z-index: 10; font-size: 0px; line-height: 0px;}
 .section-title-center-lrg h2 span {display: inline-block; padding: 0px 20px; background-color: #ffffff; position: relative; z-index: 20;}
 .section-title-center-lrg p {text-align: center;}
@@ -593,7 +593,7 @@ footer .social svg {width: 40px; height: 40px;}
 .search-filter h3.flip-device {display: none;}
 .search-filter div.panel {display: block;}
 
-.search-form {width: 100%; padding: 20px 0px 20px 0px; text-align: left; /*border-bottom: solid 1px rgba(132,147,158,0.3);*/ background-color: #001536; position: relative;}
+.search-form {width: 100%; padding: 20px 0px 20px 0px; text-align: left; /*border-bottom: solid 1px rgba(132,147,158,0.3);*/ background-color: #953def; position: relative;}
 .search-form h2 {font-size: 2.2rem; color: #ffffff; margin: 0px; text-transform: uppercase;}
 .search-form p {color: #ffffff; margin: 0px;}
 .search-form label {display: inline-block; color: #e2e2dc; padding-bottom: 5px;}
