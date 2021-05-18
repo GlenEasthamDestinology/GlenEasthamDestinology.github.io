@@ -1546,7 +1546,7 @@ display: block;
 .tiles .tilex2 a {height: 568px;}
 .tiles .tilex1 a span, .tiles .tilex2 a span, .tiles .tilex0-5 a span {display: inline-block; box-sizing: border-box; padding: 10px 20px; border: solid 3px #ffffff; max-width: 80%; text-align: center;}
 .tiles .tilex1 a:hover, .tiles .tilex2 a:hover, .tiles .tilex0-5 a:hover {background-color: rgba(0,0,0,0.5); opacity: 1;}
-
+.tiles > div > div > h3 { background-color: #953def !important;}
 /*==================================================================*/
 /*   Speak to an Expert                                             */
 /*==================================================================*/
