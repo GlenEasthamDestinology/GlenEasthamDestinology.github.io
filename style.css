@@ -1021,7 +1021,7 @@ footer .social svg {width: 40px; height: 40px;}
 ul.search-details-summary {margin: 20px 0px 0px 0px; padding: 0px; display: flex; justify-content: space-between;}
 ul.search-details-summary li {box-sizing: border-box; list-style: none; min-height: 50px; margin: 0px; padding: 0px; position: relative;}
 ul.search-details-summary li.summary-date {padding: 5px 0px 0px 60px; font-size: 1.6rem; color: #ffffff;}
-ul.search-details-summary li.summary-date strong {display: block; font-size: 1.4rem; font-weight: 700; color: #988962;}
+ul.search-details-summary li.summary-date strong {display: block; font-size: 1.4rem; font-weight: 700; color: #ffffff;}
 ul.search-details-summary li.summary-date span {display: inline-block; box-sizing: border-box; width: 50px; height: 50px; padding: 10px; border-radius: 50%; background-color: #0062c4; color: #ffffff; position: absolute; top: 0px; left: 0px;}
 ul.search-details-summary li.summary-date span svg {width: 30px; height: 30px; fill: #ffffff;}
 
@@ -1051,9 +1051,9 @@ ul.search-details-summary li.more-button svg polygon {fill: #ffffff;}
 /*.search-details-more-button a:hover svg * {fill: #988962;}*/
 
 .search-details-itinsummary {display: flex; box-sizing: border-box; margin-bottom: 0px; padding-left: 60px; position: relative;}
-.search-details-itinsummary div.itinerary-icon {display: inline-block; box-sizing: border-box; width: 50px; height: 50px; padding: 10px; border-radius: 50%; background-color: #0062c4; color: #ffffff; position: absolute; top: 0px; left: 0px;}
+.search-details-itinsummary div.itinerary-icon {display: inline-block; box-sizing: border-box; width: 50px; height: 50px; padding: 10px; border-radius: 50%; background-color: #313131; color: #ffffff; position: absolute; top: 0px; left: 0px;}
 .search-details-itinsummary div.itinerary-icon svg {width: 30px; height: 30px; fill: #ffffff;}
-.search-details-itinsummary h2 {font-size: 1.4rem; font-weight: 700; margin: 5px 0px 0px 0px; color: #988962;}
+.search-details-itinsummary h2 {font-size: 1.4rem; font-weight: 700; margin: 5px 0px 0px 0px; color: #953def;}
 .search-details-itinsummary ul {margin: 0px; padding: 0px;}
 .search-details-itinsummary li {display: inline-block; float: left; box-sizing: border-box; list-style: none; margin: 0px; padding: 0px 30px 0px 24px; position: relative;}
 .search-details-itinsummary li svg {width: 16px; height: 16px; position: absolute; top: 3px; left: 0px;}
@@ -1868,7 +1868,7 @@ ul.search-details-summary {flex-wrap: wrap;}
 ul.search-details-summary li {flex: 1 0 100%; min-height: auto;}
 ul.search-details-summary li.summary-date {display: flex; padding: 0px 0px 10px 28px;}
 ul.search-details-summary li.summary-date strong {flex: 1; display: inline-block; margin-right: 10px; font-size: 1.6rem;}
-ul.search-details-summary li.summary-date span {width: 18px; height: 18px; padding: 0px; border-radius: 0%; background-color: transparent; top: 2px;}
+ul.search-details-summary li.summary-date span {width: 18px; height: 18px; padding: 0px; border-radius: 0%; background-color: #313131; top: 2px;}
 ul.search-details-summary li.summary-date span svg {width: 18px; height: 18px; fill: rgba(255,255,255,0.7);}
 ul.search-details-summary li.more-button {flex: 0 1 auto; margin: 20px 0px 0px auto;}
 
